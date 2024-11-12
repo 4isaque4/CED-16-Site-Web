@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background-color: #4CAF50; /* Verde escuro */
+    color: white; /* Texto branco */
+    padding: 20px 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+#navbar {
+    margin-top: 10px; /* Espaçamento acima da barra de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-weight: bold; /* Negrito nos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+#main-content {
+    max-width: 800px; /* Limita a largura do conteúdo principal */
+    margin: 20px auto; /* Centraliza o conteúdo na página */
+    padding: 20px;
+    background-color: white; /* Fundo branco para contraste */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do conteúdo */
+}
+
+h2 {
+    color: #4CAF50; /* Cor dos títulos principais */
+}
+
+h3 {
+    color: #333; /* Cor dos subtítulos */
+}
+
+.post {
+    margin-bottom: 20px; /* Espaçamento entre os artigos */
+    padding: 15px; /* Espaçamento interno nos artigos */
+    border-left: 5px solid #4CAF50; /* Borda lateral verde nos artigos */
+}
+
+.post h3 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título do artigo */
+}
+
+.post p {
+    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos dentro dos artigos */
+}
+
+a {
+    color: #4CAF50; /* Cor dos links dentro dos artigos e seções */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse sobre os links */
+}
+
+#footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 15px 0;
+    background-color: #333; /* Fundo escuro para o rodapé */
+    color: white; /* Texto branco no rodapé */
+}
+
+/* Estilo para a seção de feedback (comentários) */
+#feedback {
+    background-color: #e8f5e9; /* Fundo verde claro para a seção de feedback */
+    border: 1px solid #4CAF50; /* Borda verde na seção de feedback */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos do formulário em coluna */
+}
+
+label {
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo do campo do formulário */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

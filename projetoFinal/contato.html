@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Blog de Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Adicionando defer para carregar o script após o HTML -->
+</head>
+<body>
+    <header id="header">
+        <h1>Blog de Hobbies - Contato</h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h2>Entre em Contato Conosco!</h2>
+
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="comment">Crítica ou Comentário:</label>
+            <textarea id="comment" name="comment" rows="5" required></textarea>
+
+            <input type="submit" value="Enviar"/>
+        </form>
+
+    </main>
+
+    <footer id="footer">&copy; 2024 Blog de Hobbies</footer>
+
+</body>
+</html>
